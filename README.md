@@ -13,3 +13,5 @@ The listings use Google geocoding to get the coords from the address field. You 
 ```bash
 npm start
 ```
+
+moved over from another repo, will update this readme as I progress.
