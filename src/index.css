@@ -87,7 +87,9 @@ button {
   margin-right: 15px;
   
 }
-
+.listingDetails li{
+  color: rgb(139, 127, 127);
+}
 .pageContainer,
 .offers,
 .profile,
