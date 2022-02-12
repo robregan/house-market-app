@@ -84,6 +84,8 @@ button {
   position: absolute;
   top: -3.4%;
   right: 20px;
+  margin-right: 15px;
+  
 }
 
 .pageContainer,
@@ -156,16 +158,14 @@ button {
   bottom: 0;
   right: 0;
   height: 85px;
-  background-color: #2e2a2a;
+  background-color: #e9f3f5;
   z-index: 1000;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-li{
-  color: rgb(204, 186, 186);
-}
+
 
 .navbarNav {
   width: 100%;
@@ -179,6 +179,7 @@ li{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  color:rgba(247, 238, 238, 0.8) !important;
 }
 
 .navbarListItem {
@@ -193,11 +194,9 @@ li{
   margin-top: 0.25rem;
   font-size: 14px;
   font-weight: 600;
-  color: #8f8f8f;
+  color: #4d4040;
 }
-.navbarListItemNameActive {
-  color: #2c2c2c;
-}
+
 
 .nameInput {
   margin-bottom: 2rem;
@@ -433,7 +432,9 @@ p{
 .categoryListings {
   padding: 0;
 }
-
+li.categoryListing{
+  padding-right: 50px;
+}
 .categoryListing {
   display: flex;
   justify-content: space-between;
@@ -678,6 +679,13 @@ p{
   cursor: pointer;
   font-weight: 600;
   color: #00cc66;
+  font-size: 1.4rem;
+}
+.changePersonalDetails:hover {
+  cursor: pointer;
+  font-weight: 700;
+  color: #6227af;
+  
 }
 
 .profileCard {
