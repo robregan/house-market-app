@@ -1,6 +1,6 @@
 # House Marketplace
 
-Find and list houses for sale or for rent. This is a React / Firebase v9 project from the React Front To Back 2022 course.
+Find and list houses for sale or for rent.
 
 ## Usage
 
@@ -14,4 +14,7 @@ The listings use Google geocoding to get the coords from the address field. You 
 npm start
 ```
 
-moved over from another repo, will update this readme as I progress.
+moved over from another repo.
+
+Everything seems to be in order! 
+Check out the live version here. https://chillow.netlify.app/
