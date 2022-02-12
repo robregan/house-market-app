@@ -742,7 +742,9 @@ li.categoryListing{
   justify-content: space-between;
   align-items: center;
 }
-
+.createListing p{
+  color: black;
+}
 .listingText {
   margin-top: 3rem;
   font-weight: 600;
