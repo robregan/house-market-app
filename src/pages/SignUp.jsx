@@ -64,7 +64,7 @@ function SignUp() {
     <>
       <div className='pageContainer'>
         <header>
-          <p className='pageHeader'>Welcome Back!</p>
+          <p className='pageHeader'>Welcome to the Marketplace!</p>
         </header>
 
         <form onSubmit={onSubmit}>
@@ -103,9 +103,6 @@ function SignUp() {
             />
           </div>
 
-          <Link to='/forgot-password' className='forgotPasswordLink'>
-            Forgot Password
-          </Link>
 
           <div className='signUpBar'>
             <p className='signUpText'>Sign Up</p>
@@ -117,8 +114,8 @@ function SignUp() {
 
         <OAuth />
 
-        <Link to='/sign-in' className='registerLink'>
-          Sign In Instead
+        <Link to='/sign-in' className='bobby'>
+          <p className='reggy2'>Sign In Instead</p>
         </Link>
       </div>
     </>

@@ -48,6 +48,13 @@ function SignIn() {
       <div className='pageContainer'>
         <header>
           <p className='pageHeader'>Welcome Back!</p>
+        
+
+
+        
+        <Link to='/sign-up' className='registerLink'>
+          <p className="pageHeader reggy">Register a new account</p>
+        </Link>
         </header>
 
         <form onSubmit={onSubmit}>
@@ -92,9 +99,6 @@ function SignIn() {
 
         <OAuth />
 
-        <Link to='/sign-up' className='registerLink'>
-          Sign Up Instead
-        </Link>
       </div>
     </>
   )
